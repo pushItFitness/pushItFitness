@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "bernier regular";
+	src: url(../fonts/BERNIERRegular.ttf) format("truetype");
+}
+@font-face {
+	font-family: "font awesome";
+	src: url(../fonts/font-awesome-4.7.0/fontawesome-webfont.ttf) format("truetype");
+}
+
+body {
+	font-family: "bernier regular", sans-serif;
+}
+h2 {
+	font-size: 2.5rem;
+	margin-bottom: 0;
+	color: #2b216b;
+}
+h3 {
+	color: #2b216b;
+	margin-bottom: 0;
+}
+.top-buffer {
+	padding-top: 7rem;
+}
+.bottom-buffer {
+	padding-bottom: 7rem;
+}
+
+/* nav bar */
+.title-container h1 {
+	font-size: 5rem;
+	opacity: 0.5;
+}
+.title-container h1 span:first-child {
+	color: #2b216b;
+}
+.title-container h1 span:last-child {
+	color: #00aa77;
+}
+.pushit-navbar a {
+	color: #2b216b;
+}
+.pushit-navbar a:hover {
+	color: #9590b5;
+}
+.pushit-navbar .active a {
+	color: #00aa77;
+}
+.navbar-logo {
+	padding: 0;
+}
+.navbar-logo img {
+	width: 50px;
+}
+
+/* footer */
+.footer-container {
+	position: absolute;
+	bottom: 0;
+	background-color: #2b216b;
+	padding: 1rem;
+}
+.footer-container span {
+	color: #ffffff;
+}
+.social-icon {
+	padding-right: 1rem;
+}
+
+/* home-page carousel section */
+.home-page-carousel img {
+	width: 1200px;
+	height: 27em;
+}
+
+/* home-page about section */
+.about-body img {
+	width: 300px;
+	height: 400px;
+}
+
+/* home-page services section */
+.pushit-btn {
+	background-color: #ffffff;
+	border: solid 1px #a7cf4b;
+	color: #a7cf4b;
+}
+.pushit-btn:hover {
+	background-color: #a7cf4b;
+	border: solid 1px #ffffff;
+	color: #ffffff;
+	cursor: auto;
+}
+.fitness-icon {
+    background: url(../img/fitness-icons.png) -8.8em -0.6em;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 24rem;
+}
+
+/* services page */
+.services-img {
+	width: 400px;
+    height: 26em;
+}
+
+/* appointment page */
+#calendar button {
+	background-color: #ffffff;
+	border: solid 1px #a7cf4b;
+	color: #a7cf4b;
+	background-image: none;
+}
+#calendar table thead, #calendar table th, #calendar table tr, #calendar table, #calendar table td {
+	border-color:#00aa77;
+}
+#calendar table thead span {
+	color: #2b216b;
+}
+#calendar td.fc-today {
+	background: #7fd4bb; 
+}
